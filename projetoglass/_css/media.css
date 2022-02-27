@@ -22,3 +22,14 @@ video#filme {
     width: 430px;
     height: 430px;
 }
+video#filme2 {
+    display: block;
+    position: relative;
+    left: 130px;
+    padding: 10px;
+}
+video#filme3 {
+    display: block;
+    position: relative;
+    width: 400px;
+}
