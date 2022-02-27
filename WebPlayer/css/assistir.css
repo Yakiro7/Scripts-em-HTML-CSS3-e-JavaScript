@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+h1#nome {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 61, 61);
+}
+
+figure.imagen {
+    display: block;
+    position: relative;
+    width: 600px;
+    border: 5px solid #606060;
+    box-shadow: 1px 1px 3px black ;
+    right: 30px;
+    margin-top: 0px;
+}
+
+figure.imagen img{
+    display: block;
+    width: 600px;
+    
+
+}
+div#interface {
+    display: block;
+    background-color: rgb(150, 150, 150);
+    
+}
+p {
+    text-align: justify;
+    text-indent: 50px;
+    color: white;
+}
+
+section#corpo {
+    border-right: #fd0000;
+    display: block;
+    width: 1300px;
+    float: left;
+}
+
+aside#lateral {
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    padding-top: 60px;
+    right: 20px;
+    width: 620px;
+
+}
+aside#lateral a {
+    text-decoration: none;
+    color: white;
+    
+}
+aside#lateral a:hover {
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+}
+aside#lateral td {
+    list-style: none;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    background-color: #000000;
+}
+table#tabeladeep {
+    border: 1px solid #606060;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#tabeladeep td {
+    border: 1px solid #606060;
+    padding: 10px;
+}
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+}
+iframe#frame-spec {
+    position: absolute;
+    width: 510px;
+    height: 290px;
+    border: 5px solid rgb(95, 81, 81);
+    overflow: hidden;
+    left: 60px;
+}

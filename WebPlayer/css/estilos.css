@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo';
+    src: url('../Font/PLAYFUL.otf');
+}
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+div#interface {
+    background-color: rgb(150, 150, 150);
+    margin: 30px 25px 10px 25px;
+    box-shadow: 0px 0px 13px rgb(206, 14, 14);
+}
+p {
+    text-align: justify;
+    text-indent: 50px;
+    color: white;
+}
+/* Configuração de Imagens*/
+figure.texto-fotos img{
+    width: 150px;
+    height: 200px;
+}
+
+figure.texto-fotos{
+    display: inline-block;
+    position: relative;
+    border: 7px solid rgb(92, 89, 89);
+    box-shadow: 1px 1px 3px black;
+}
+
+figure.texto-fotos figcaption{
+    opacity: 0;
+    top: 120px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+figure.texto-fotos:hover figcaption{
+    opacity: 1;
+}
+
+header#cabecalho h1{
+    font-family: 'FonteLogo', sans-serif;
+}
+
+/* Configuração do Menu */
+
+nav#menu{
+    display: block;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: rgb(39, 39, 39);
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+}
+nav#menu li:hover{
+    background-color: #606060;
+}
+nav#menu a{
+    color: white;
+    text-decoration: none;
+}
+nav#menu a:hover{
+    color: rgb(253, 1, 1);
+}
+div#interface h3 {
+    text-align: center;
+}
